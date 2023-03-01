@@ -1,0 +1,249 @@
+.body
+{
+    font-family: Verdana;
+    color: brown;
+    margin: 0;
+    padding: 0;
+ }
+
+.Nombre
+{
+width: 50%;
+height: 35vh;
+}
+
+.Contenido
+{
+    position: absolute;
+    background-color: #191c30;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    }
+
+.Contenido .p-1
+ { 
+    font-weight: bolder;
+    font-size: xxx-large;
+    font-family: Verdana;
+    color:brown;
+    top: 35%;
+    left: 32%;
+    position: absolute;
+    flex: content;
+          }
+
+.Contenido .p-2
+{ 
+    font-weight: bolder;
+    font-size:x-large;
+    font-family: Verdana;
+    color:brown;
+    top: 60%;
+    left: 33%;
+    position: absolute;
+    flex: content;
+          }
+
+.Contenido > img
+{
+    position: absolute;
+    top: 18%;
+    right: 35%;
+    height: 210px;
+    width: 210px;
+    border-radius: 100%;
+    overflow: hidden;
+    border-style:solid;
+    border-color:rgb(219, 76, 41) ;
+}
+
+.Contenido .btn
+{
+    top: 80%;
+    left: 36%;
+    position: absolute;
+    flex: content; 
+    background-color: brown;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: medium;
+    padding: 10px 20px;
+ }
+
+ .Contenido .button
+ {
+    top: 40%;
+    left: 80%;
+    position: absolute;
+    flex: content; 
+    background-color: brown;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: medium;
+     }
+     
+ .Datos
+{
+    width: 50%;
+    }
+
+.tituloSeccion
+{
+    font-weight:bolder;
+    font-size:x-large;
+    font-family: Verdana;
+    color:rgb(219, 76, 41);
+    text-align:right;
+    border-bottom: 2px #101431 dashed; 
+    margin-right: 175px;
+    margin-left: 175px;
+     }
+
+.titulo
+{
+    font-weight:normal;
+    font-size: large;
+    font-family: Verdana;
+    color:#191c30;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    padding: 20px;
+    display: inline;
+            }
+
+
+.Info
+{
+    font-weight:normal;
+    font-size:large;
+    font-family: Verdana;
+    color:rgb(219, 76, 41);
+    display: inline; 
+        }
+
+.Contacto h2  
+{
+    font-size: large;
+    font-family: Verdana;
+    font-weight: bold;
+    color: rgb(219, 76, 41);
+    margin-left: 400px;
+    padding: 1em;
+    border-bottom: #191c30 solid;
+    margin-right: 400px;
+}
+
+.Puesto
+{
+    font-weight:normal;
+    font-size: x-large;
+    font-family: Verdana;
+    color:rgb(219, 76, 41);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    padding: 20px;
+    display: inline;
+ }        
+
+ .texto
+ 
+ {
+    font-weight:lighter;
+    font-size: large;
+    font-family: sans-serif;
+    font-style: italic;
+    color:#2b2f4d;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    padding: 20px;
+    display: inline;
+ }   
+
+.formulario
+{
+    margin-left: 700px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+    }
+
+.formulario input
+{
+    background: #191c30;
+    border-bottom: 1px solid;
+    color: #fff;
+    border: none;
+    margin-bottom: 1em;
+    font-weight: bold;
+    border-radius: 15px;
+    }
+
+ .formulario textarea
+ {
+    background: #191c30;
+    border-bottom: 1px solid;
+    height: 150px;
+    padding: 1 em;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+     }   
+
+     .formulario button
+     {
+     background: #191c30;
+     color:#fff;
+     border: none;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-bottom: 10px;
+     border-radius: 15px;
+     margin-top: 10px;
+     cursor: pointer;
+     }
+
+    .footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100px;
+        background: #191c30;
+                    }
+
+    .footer h2
+    {
+        font-weight: bolder;
+        font-size:x-large;
+        font-family: Verdana;
+        color:brown;
+        text-align: center;
+        padding-top: 2px;
+
+    }        
+
+    .footer .redes
+    {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 300px;
+    }
+
+    
